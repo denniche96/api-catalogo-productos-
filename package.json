@@ -1,0 +1,29 @@
+{
+  "name": "api-catalogo-productos",
+  "version": "1.0.0",
+  "description": "API REST con Node.js, Express, SQLite, JWT y roles para catálogo de productos y favoritos personales",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/scripts/initDb.js",
+    "db:seed": "node src/scripts/seed.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "jwt",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
